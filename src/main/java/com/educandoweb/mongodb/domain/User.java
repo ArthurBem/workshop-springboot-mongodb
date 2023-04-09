@@ -70,5 +70,6 @@ public class User implements Serializable{
         } else if (!id.equals(other.id))
             return false;
         return true;
-    }    
+    }
+
 }
